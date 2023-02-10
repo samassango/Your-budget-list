@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: start;
+}
+.Loyout {
+  margin: 2px;
+  padding: 2px;
+  border: 2px solid teal;
+}
+.item-Row {
+  display: grid;
+  grid-template-columns: 60% 20% 10% 10%;
+  justify-content: start;
+  /* display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  justify-content: space-between; */
+}
+
+.header {
+  display: grid;
+  grid-template-columns: auto auto;
+  color: teal;
+  text-shadow: turquoise 1px 0 10px;
+  text-align: center;
+}
+.header .header-title {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+.header-notes {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
